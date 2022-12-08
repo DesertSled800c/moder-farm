@@ -12,6 +12,11 @@ textarea {
 	font-size: 14px;
 	line-height: 1.5;
 }
+/* body {
+    margin: 0px;
+    background: #0e0e0e;
+    height: 100%;
+} */
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
@@ -32,5 +37,19 @@ h1,h2,h3,h4,h5,h6 {
 
 .red {
     background-color: darksalmon;
+}
+
+
+.catalog__harvestArr { 
+    display: flex;
+    flex-wrap: wrap;
+    aspect-ratio: auto;
+    background-color: rgb(222, 235, 101);
+}
+
+.plant {
+    width: 16.667%;
+    padding: 0.5rem;
+    padding-bottom: 4rem;
 }
 
